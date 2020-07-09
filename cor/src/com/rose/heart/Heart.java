@@ -64,5 +64,13 @@ public class Heart {
 			return lvWall;
 		}
 		
+		public AV_Valve getMitralValve() {
+			return this.MV;
+		}
+		
+		public SL_Valve getAorticValve() {
+			return this.AV;
+		}
+		
 		
 }

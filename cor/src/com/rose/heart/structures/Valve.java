@@ -6,6 +6,9 @@ public class Valve {
 	ArrayList<Leaf> leaves;
 	Cavum cavumProx;
 	Cavum cavumDist;
+	StenosisValve stenosis;
+	Regurgitation regurgitation;
+	
 	protected ArrayList<Leaf> getLeaves() {
 		return leaves;
 	}
@@ -24,6 +27,21 @@ public class Valve {
 	public void setCavumDist(Cavum cavumDist) {
 		this.cavumDist = cavumDist;
 	}
+	public StenosisValve getStenosis() {
+		return stenosis;
+	}
+	public void setStenosis(StenosisValve stenosis) {
+		this.stenosis = stenosis;
+	}
+	public Regurgitation getRegurgitation() {
+		return regurgitation;
+	}
+	public void setRegurgitation(Regurgitation regurgitation) {
+		this.regurgitation = regurgitation;
+	}
+	
+	
+	
 	
 	
 }
